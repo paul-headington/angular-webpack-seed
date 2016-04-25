@@ -1,8 +1,8 @@
-# Angular-Webpack-Babel Generator
+# Angular-Webpack-Babel Seed
 
-[![Dependency Status](https://david-dm.org/Foxandxss/angular-webpack-workflow/status.svg)](https://david-dm.org/Foxandxss/angular-webpack-workflow#info=dependencies) [![devDependency Status](https://david-dm.org/Foxandxss/angular-webpack-workflow/dev-status.svg)](https://david-dm.org/Foxandxss/angular-webpack-workflow#info=devDependencies)
+This is a fork of a great Yeoman Generator https://github.com/Aleksion/generator-angular-webpack-babel
 
-This generator is Heavily inspired by [Foxandxss's angular-webpack-workflow](https://github.com/Foxandxss/angular-webpack-workflow) - he is to have all the credit. I merely needed a generator for a few internal projects - and I tweaked it to suit my particular needs and requirements.
+I've just added some base project setups the way I like it. the following is Akeksion's instructions.
 
 Since Foxandxss passes on all credit to Cesar Andreau, I respectfully do the same.
 Taken from Foxandxss original README:
@@ -23,34 +23,6 @@ Taken from Foxandxss original README:
 * Flowtype enabled
 * Suggested application structure
 * Generator for both app wide features and components
-
-
-## Installation
-
-### Requirements
-The project also requires a MINIMUM of node v. 0.12.0. I recommend installing the latest version.
-First of all, make sure you have installed all the requirements to run the project:
-
-Install ``yo``, ``grunt-cli``, ``webpack``, ``karma``, ``eslint``, ``babel-eslint``
-```shell
-npm install -g yo grunt-cli webpack karma eslint babel-eslint
-```
-
-Install the ``generator-angular-webpack-starter``:
-```shell
-npm install -g generator-angular-webpack-starter
-```
-
-### Usage
-Make a new directory and ``cd``into it:
-```shell
-mkdir my-new-directory && cd $_
-```
-
-Run ``yo angular-webpack-starter``:
-```shell
-yo angular-webpack-starter
-```
 
 ### Scripts
 
@@ -145,7 +117,7 @@ Flow has also been integrated in the project. It is completely optional, but wil
 ## Example and tutorial
 Foxandxss has provided some excellent material on how to write Angular with ES6, which I have mostly strived to adhere to in the generator.
 
-It's generally a good introctory read: [angular-tips](http://angular-tips.com/blog/2015/06/using-angular-1-dot-x-with-es6-and-webpack/)
+It's generally a good introductory read: [angular-tips](http://angular-tips.com/blog/2015/06/using-angular-1-dot-x-with-es6-and-webpack/)
 
 ## License
 
